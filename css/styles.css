@@ -3,33 +3,44 @@
   --title-text-color: #212121;
   --accent-color: #2196f3;
 }
+
 body {
   background-color: #fff;
   color: var(--primary-text-color);
 }
+
 .logo {
   color: #000;
 }
+
 .logo-begin {
   color: var(--accent-color);
 }
+
 .list {
   list-style: none;
 }
+
 /* site nav */
 .site-nav .link {
   color: var(--title-text-color);
 }
+
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
+}
 
 /* contacts */
 .contacts .contacts-link {
-  color: var(--primary-text-color)
+  color: var(--primary-text-color);
 }
 
+.contacts .contacts-link:hover,
+.contacts .contacts-link:focus {
+  color: var(--accent-color);
 }
+
 /* title */
 .section-title {
   color: var(--title-text-color);
@@ -39,9 +50,11 @@ body {
 .hero {
   background-color: #2f303a;
 }
+
 .hero-title {
   color: #fff;
 }
+
 /* Advantages */
 .advantages-list .title {
   color: var(--title-text-color);
@@ -51,9 +64,11 @@ body {
 .footer {
   background-color: #2f303a;
 }
+
 .logo-footer {
   color: #fff;
 }
+
 .address-list {
   color: #fff;
 }
@@ -62,5 +77,7 @@ body {
   color: #fff;
   background-color: var(--accent-color);
 }
+
 .address-list .link {
   color: rgba(255, 255, 255, 0.6);
+}
