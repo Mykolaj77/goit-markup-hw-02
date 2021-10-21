@@ -51,11 +51,10 @@ body {
 .address-list {
   color: #fff;
 }
+
+.button {
+  color: #fff;
+  background-color: var(--accent-color);
+}
 .address-list .link {
   color: rgba(255, 255, 255, 0.6);
-
-/* Button */
-.button {
-    color: #fff;
-    background-color: var(--accent-text-color);
-}
