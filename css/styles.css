@@ -23,6 +23,12 @@ body {
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
+
+/* contacts */
+.contacts .contacts-link {
+  color: var(--primary-text-color)
+}
+
 }
 /* title */
 .section-title {
