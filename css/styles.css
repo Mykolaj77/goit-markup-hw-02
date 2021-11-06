@@ -124,6 +124,7 @@ a {
 
 .address-list {
   color: #fff;
+  font-style: normal;
 }
 
 .button {
@@ -189,10 +190,11 @@ a {
   line-height: 1.2;
 }
 
-.address-list {
+.address-link {
+  font-style: normal;
   font-family: Roboto;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.71
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
