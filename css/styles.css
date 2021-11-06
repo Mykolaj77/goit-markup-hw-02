@@ -16,6 +16,7 @@ a {
   text-decoration: none;
 }
 
+/* Logo header */
 .logo {
   color: #000;
   font-family: Raleway, sans-serif;
@@ -173,5 +174,25 @@ a {
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+/* Footer */
+.footer {
+  background-color: #2f303a;
+}
+/* Logo footer */
+.logo-footer {
+  color: #fff;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.address-list {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71
   letter-spacing: 0.03em;
 }
