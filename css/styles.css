@@ -99,6 +99,14 @@ a {
   text-transform: uppercase;
 }
 
+.advantages-list .text {
+  color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
 /* Team */
 .team-title {
   color: var(--title-text-color);
@@ -125,11 +133,15 @@ a {
 .address-list {
   color: #fff;
   font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 .button {
   color: #fff;
   background-color: var(--accent-color);
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -141,6 +153,9 @@ a {
 
 .address-list .link {
   color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 /* Portfolio */
@@ -149,6 +164,7 @@ a {
 .filters-button {
   color: var(--title-text-color);
   background-color: var(--second-backgound-color);
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
